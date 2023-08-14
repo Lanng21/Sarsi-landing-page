@@ -91,6 +91,11 @@
         border: 1px solid #474747;
         border-radius: 5px;
         padding: 5px;
+        &:hover {
+          background-color: lighten($background-color, 10%);
+          color: $secondary-color;
+          border-color: $secondary-color;
+        }
         p,
         h3 {
           color: $primary-color;
@@ -103,6 +108,7 @@
           .title-button {
             font-size: 22px;
           }
+
           @include mobile {
             gap: 5px;
             .title-button {
@@ -133,7 +139,13 @@ footer {
   align-items: center;
   a {
     color: $text-color;
-    text-decoration: underline;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+
+    &:hover {
+      color: $primary-color;
+      text-decoration: underline;
+    }
   }
 
   @include mobile {
