@@ -1,6 +1,6 @@
 ## SOURCE CODE
 
-- Step1: Clone project : git clone [git](https://github.com/TITO-TRAINING/Practice-html-css.git)
+- Step1: Clone project : git clone [git](https://github.com/Lanng21/Sarsi-landing-page.git)
 
 ## HOW TO RUN
 
